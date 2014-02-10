@@ -154,10 +154,13 @@ background: url(images/small.jpg) no-repeat;
 text-align: center;
 float: right;
 width: 380px;
-padding-right: 10px;
+margin-left: 0;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
 }
 
-#right H4{
+#right h4{
 margin: 0;
 padding: 0px;
 font-size: 12px;
@@ -166,7 +169,7 @@ color: #3a7100;
 
 #right h2 {
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	padding-top: 10px;
 	color: #3a7100;
 }
