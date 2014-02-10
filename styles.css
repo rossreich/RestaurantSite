@@ -2,7 +2,7 @@ body {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 11px;
 text-align: center;
-background: #000000;
+background-image:url(images/clover_bkgd.png);
 margin: 20px 0 20px 0;
 }
 
@@ -74,6 +74,7 @@ text-decoration: none;
     text-align: left;
     border:1px solid #222;
     background-color: #ffffff;
+    
 }
 
 #page_padding {
@@ -86,7 +87,7 @@ text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     height: 180px;
-    background: #999999 url(images/logo.png) top right no-repeat;
+    background: #78AB46 url(images/logo.png) top right no-repeat;
 }
 
 #header_left {
@@ -133,7 +134,7 @@ padding-top: 15px;
 margin: auto;
 text-transform: uppercase;
 color: #ffffff;
-background: url(images/small.jpg) no-repeat
+background: url(images/small.jpg) no-repeat;
 }
 
 #left ul {
