@@ -43,7 +43,7 @@ padding: 1.2em;
 }
 
 #main p {
-    float: right;
+float: right;
 }
 
 #navlist li{
@@ -113,13 +113,15 @@ text-decoration: none;
 }
 
 #menu {
-padding: 0; background: url(images/buttons.jpg) repeat-x; margin: 0; 
+padding: 0;
+background: url(images/buttons.jpg) repeat-x;
+margin: 0; 
 }
 
 #left{
-padding: 10px;
+padding: 0px;
+margin: 0px;
 width: 180px;
-padding-right: 1em;
 }
 
 #left H3
@@ -143,46 +145,66 @@ background: url(images/small.jpg) no-repeat;
 	border-bottom: 1px solid #629351;
 	border-left: 1px solid #629351;
 	border-right: 1px solid #629351;
+        background-color: #78AB46;
 }
 
-#left li ul {
-	border: 0px;
-	margin-left: 20px;
-	margin-bottom: 10px;
+#left ul li {
+	border: 3px;
+	margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        color: #000000;
+}
+
+#left ul li a{
+     color: #000000;
 }
 #right{
 text-align: center;
 float: right;
 width: 380px;
-margin-left: 0;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
+margin-left: 10px;
+margin-right: 0px;
+padding-left: 10px;
+padding-right: 0px;
 }
 
 #right h4{
-margin: 0;
-padding: 0px;
+margin: 10px;
+padding-left: 10px;
+padding-right: 0px;
 font-size: 12px;
 color: #3a7100;
 }
 
 #right h2 {
-	margin: 0;
-	padding: 5px;
+	margin: 10px;
+	padding-left: 10px;
+        padding-right: 0px;
 	padding-top: 10px;
 	color: #3a7100;
 }
 
+#right h5 {
+	margin: 10px;
+	padding-left: 10px;
+        padding-right: 0px;
+	padding-top: 10px;
+	color: #000000;
+}
+
 #right a
 {
+padding-left: 10px;
+padding-right: 0px;
 color: #3a7100;
 text-decoration: none;
 }
 
 #right p {
-margin: 0;
-padding: 0;
+margin: 10px;
+padding-left: 10px;
+padding-right: 0px;
 padding-bottom: 10px;
 font-size: 12px;
 }
