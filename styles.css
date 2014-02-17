@@ -2,7 +2,7 @@ body {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 11px;
 text-align: center;
-background-image:url(images/clover_bkgd.png);
+background-image:url(images/stripe_bkgd.jpg);
 margin: 20px 0 20px 0;
 }
 
@@ -83,19 +83,20 @@ text-decoration: none;
 
 #header {
     text-align: center;
-    padding: 5px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     height: 180px;
-    background: #78AB46 url(images/logo.png) top right no-repeat;
+    background: #BCED91 url(images/logo.png) top right no-repeat;
+    border: 3px solid #629351;
 }
 
 #header_left {
      float:left;
-     width: 500px;
-     padding-top: 35px;
-	 padding-left: 20px;
-     border:0px dashed #FFFFFF;
+     width: 600px;
+     font-style: italic;
+     font-family: cursive;
+     margin-right: 200px;
 }
 
 #header_right {
@@ -127,7 +128,7 @@ width: 180px;
 #left H3
 {
 text-align: center;
-width: 165px;
+width: 160px;
 height: 25px;
 font-size: 14px;
 font-weight: bold;
@@ -135,17 +136,15 @@ padding-left: 15px;
 padding-top: 15px;
 margin: auto;
 text-transform: uppercase;
-color: #ffffff;
-background: url(images/small.jpg) no-repeat;
+color: #FFFFFF;
+background:#629351;
 }
 
 #left ul {
      text-align: center;
 	list-style: none;
-	border-bottom: 1px solid #629351;
-	border-left: 1px solid #629351;
-	border-right: 1px solid #629351;
-        background-color: #78AB46;
+	border: 3px solid #629351;
+        background-color: #BCED91;
 }
 
 #left ul li {
