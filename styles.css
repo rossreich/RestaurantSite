@@ -1,17 +1,20 @@
 body {
+     height: auto;
+     width: 770px auto;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 11px;
 text-align: center;
-background-image:url(images/clover_bkgd.png);
+background-image:url(images/oneals_bkgd2.png);
+background-size: 700px 1200px;
 margin: 20px 0 20px 0;
 }
 
 p, ul, ol {
-     margin: 0 0 1.4em 0;
-     padding: 0px;
-     font-size: 1.5em;
+     margin: 1px;
+     padding-bottom: 1px;
+     font-size: 10px;
      font-weight: bold;
-     line-height: 1.5em;
+     font-style: italic;
      color: #000;
 }
 
@@ -19,7 +22,14 @@ h2 {
      font-size: 25px; 
      margin: 0 0 0.5em 0;
      padding: 0; 
-     color: white;  
+     color: #ffffff;  
+     
+}
+h3 { 
+     font-size: 20px; 
+     margin: 0 0 0.5em 0;
+     padding: 0; 
+     color: #ffffff;  
      
 }
 
@@ -35,11 +45,11 @@ a:hover {
 }
 
 #main {
+     height: auto;
 margin: 0;
 padding: 0;
 font-size: 14px;
 font-weight: bold;
-padding: 1.2em;
 }
 
 #main p {
@@ -52,10 +62,13 @@ list-style-type: none;
 margin: 0; padding: 0;
 }
 
-#navlist a { padding: 1em; margin: 0;}
+#navlist a {
+     padding: 23.5px; margin: 0;
+     }
 
 #navlist a:link, #navlist a:visited
 {
+
 color: #fff;
 text-decoration: none;
 
@@ -63,167 +76,172 @@ text-decoration: none;
 
 #navlist a:hover
 {
-color: #000;
-background-color: #FFF;
+color: #7BCC70;
 text-decoration: none;
 }
 
 #page {
     width: 640px;
-    margin: 0 auto;
+    height: auto;
+    margin: auto;
     text-align: left;
-    border:1px solid #222;
-    background-color: #ffffff;
+    background: #3D9140;
+    border:2px solid #003300;
     
 }
 
 #page_padding {
-     margin: 15px;
+     height: auto;
+     margin-left: 15px;
+     margin-right: 15px;
+     margin-bottom: 15px;
+     margin-top: 0;
+
 }
 
 #header {
     text-align: center;
-    padding: 5px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     height: 180px;
-    background: #78AB46 url(images/logo.png) top right no-repeat;
+    background: #7BCC70 url(images/header_bkgd.png) top right no-repeat;
+    border: 4px solid #003300;
 }
 
 #header_left {
      float:left;
-     width: 500px;
-     padding-top: 35px;
-	 padding-left: 20px;
-     border:0px dashed #FFFFFF;
+     width: 600px;
+     font-style: italic;
+     font-family: cursive;
+     margin-right: 200px;
 }
 
-#header_right {
-     float:right;
-     width: 220px;
-     padding: 35px 35px 30px 30px;
-     border:0px dashed #FFFFFF;
-     background: transparent;
-}
 
-#header_right p {
-     text-align:center;
-     padding: 0;
-     margin: 0;
-}
 
 #menu {
-padding: 0;
-background: url(images/buttons.jpg) repeat-x;
-margin: 0; 
+	width: auto;
+        font-size: 5px;
+        height: 100px auto;
+        margin: 5px auto;
+	border: 1px solid #222;
+	background-color: #111;
+	background-image: linear-gradient(#444, #111);
+	border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-box-shadow: 0 1px 1px #777;
+        -webkit-box-shadow: 0 1px 1px #777;
+	box-shadow: 0 1px 1px #777;
+        background-image: -o-linear-gradient(bottom, #444 0%, #111 100%);
+background-image: -moz-linear-gradient(bottom, #444 0%, #111 100%);
+background-image: -webkit-linear-gradient(bottom, #444 0%, #111 100%);
+background-image: -ms-linear-gradient(bottom, #444 0%, #111 100%);
+background-image: linear-gradient(to bottom, #444 0%, #111 100%);
 }
 
 #left{
-padding: 0px;
-margin: 0px;
-width: 180px;
-}
-
-#left H3
-{
+     margin-top: 35px;
+     height: auto;
+padding-left: 0px;
+margin-right: 20px;
 text-align: center;
 width: 165px;
-height: 25px;
-font-size: 14px;
-font-weight: bold;
-padding-left: 15px;
-padding-top: 15px;
-margin: auto;
-text-transform: uppercase;
+border: 2px solid #003300;
+background-color: #7BCC70;
+}
+
+#left h3{
+height: 30px;
+width: 165px;
+float: left;
+margin-left: 0px;
+margin-right: 35px;
+padding-top: 5px;
+text-align: center;
 color: #ffffff;
-background: url(images/small.jpg) no-repeat;
+background: #00611C;
+border-bottom: 3px solid #003300;
 }
 
 #left ul {
-     text-align: center;
-	list-style: none;
-	border-bottom: 1px solid #629351;
-	border-left: 1px solid #629351;
-	border-right: 1px solid #629351;
-        background-color: #78AB46;
+float: left;
+margin-left: 0px;
+margin-right: 35px;
+padding-right: 11px;
+text-align: center;
+list-style: none;
 }
 
 #left ul li {
-	border: 3px;
-	margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 5px;
-        color: #000000;
+text-align: center;
+color: #000000;
 }
 
 #left ul li a{
-     color: #000000;
+text-align: center;
+color: #000000;
 }
 #right{
 text-align: center;
+height: auto;
 float: right;
-width: 380px;
-margin-left: 10px;
-margin-right: 0px;
-padding-left: 10px;
-padding-right: 0px;
+width: 425px;
+background: #7BCC70;
+border:2px solid #003300;
 }
-
+#title{
+     margin: 0px;
+     padding: 0px;
+     border-bottom: 2px solid #003300;
+     background: url(images/buttons.jpg) repeat-x;
+}
 #right h4{
-margin: 10px;
-padding-left: 10px;
-padding-right: 0px;
 font-size: 12px;
 color: #3a7100;
 }
 
 #right h2 {
-	margin: 10px;
-	padding-left: 10px;
-        padding-right: 0px;
-	padding-top: 10px;
-	color: #3a7100;
+padding-top: 10px;
+color: #ffffff;
+font-style: italic;
+font-family: cursive;
+font-size: 20px;
 }
 
 #right h5 {
-	margin: 10px;
-	padding-left: 10px;
-        padding-right: 0px;
-	padding-top: 10px;
 	color: #000000;
 }
 
 #right a
 {
-padding-left: 10px;
-padding-right: 0px;
-color: #3a7100;
+color: #1874CD;
 text-decoration: none;
 }
 
 #right p {
 margin: 10px;
-padding-left: 10px;
-padding-right: 0px;
 padding-bottom: 10px;
 font-size: 12px;
 }
 
-#footer { 
-padding-top: 15px;
-background: url(images/buttons.jpg);
+#footer {
+     margin: 0;
+     padding: 25px;
 height: auto;
 text-align: center;
 color: #ffffff;
-margin: 0;
-padding: 0;
-font-size: 10px;
+width: 640px;
+font-size: 8px;
 }
 ul li{
     font-size: 15px;
 }
+#contact {
+    float:left;
+    text-align:center;
+    padding-right:80px;
+    margin-right:50px;
+}
 
-
-
-.spacer { clear: both; }
 
